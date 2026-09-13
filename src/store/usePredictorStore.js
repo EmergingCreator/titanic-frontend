@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import axios from "axios";
  
-const API_URL = "https://titanic-backend-kvqv.onrender.com//predict";
+const API_URL = "https://titanic-backend-kvqv.onrender.com/predict";
  
 
 export const usePredictorStore = create((set, get) => ({
